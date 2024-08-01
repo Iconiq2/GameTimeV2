@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-image: url('https://www.gannett-cdn.com/media/2017/06/13/USATODAY/USATODAY/636329125116537600-USATSI-10105973.jpg');
+    background-image: url('https://i.pinimg.com/originals/e5/dd/a4/e5dda4674d1401d0bb65671ba8036037.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -34,7 +34,7 @@ body {
     margin-bottom: 20px;
 }
 
-.basketbol {
+.football {
     width: 50px;
     height: 50px;
     margin-right: 15px;
@@ -117,14 +117,14 @@ p {
     overflow: hidden;
 }
 
-.animated-basketbol {
+.animated-football {
     position: absolute;
     width: 40px;
     height: 40px;
     animation: moveFootball 5s linear infinite;
 }
 
-.basketbol-ring {
+.goal-post {
     position: absolute;
     bottom: 0;
     right: 10px;
