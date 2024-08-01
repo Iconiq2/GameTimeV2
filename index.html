@@ -4,23 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Verino Header and Footer</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Charles Sunga</h1>
-    </header>
-    <main>
-        <img src="./assets/img/background-pic2.jpg" alt="background-pic2" style="display: block; margin: 0 auto;">
-    </main>
-    <footer>
-        <h2>Seatwork 3</h2>
-        <p>This project is designed to showcase my skills in creating a landing page with HTML and CSS.</p>
-        <nav>
-            <button onclick="location.href='header-gallery.html'">Header</button>
-            <button onclick="location.href='footer-gallery.html'">Footer</button>
-        </nav>
-    </footer>
+    <div class="content">
+        <div class="text-with-ball">
+            <img src="./assets/img/football.png" alt="Football" class="football">
+            <p class="animated-text">Welcome to My Seatwork 3. Pick one of these two options.</p>
+        </div>
+        <div class="button-container">
+            <a href="./pages/header-gallery/index.html" class="styled-button">Header</a>
+            <a href="./pages/footer-gallery/index.html" class="styled-button">Footer</a>
+        </div>
+        <div class="animation-container">
+            <img src="./assets/img/football.png" alt="Football" class="animated-football">
+            <img src="./assets/img/goalpost.png" alt="Goal" class="goal-post">
+        </div>
+    </div>
 </body>
 </html>

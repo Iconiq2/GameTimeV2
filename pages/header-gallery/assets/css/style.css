@@ -1,0 +1,402 @@
+.go-back-link {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.header-1 {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-1 nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-1 nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.header-1 nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-2 {
+    background-color: #555;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.header-2 .logo {
+    width: 100px; 
+    height: auto; 
+}
+
+.header-2 nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header-2 nav ul li {
+    margin: 0 10px;
+}
+
+.header-2 nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-3 {
+    background: linear-gradient(to right, #4CAF50, #81C784);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header-3 nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.header-3 nav ul li {
+    margin: 0 15px;
+}
+
+.header-3 nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-4 {
+    background-color: #009688;
+    color: white;
+    padding: 20px 0;
+}
+
+.header-4 .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header-4 nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header-4 nav ul li {
+    margin: 0 10px;
+}
+
+.header-4 nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-5 {
+    background-color: #673AB7;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    position: relative;
+    overflow: hidden; /* Ensures child elements respect the bounds */
+}
+
+.header-5:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent);
+    background-size: 50px 50px;
+    z-index: -1;
+}
+
+.header-5 nav ul {
+    list-style-type: none;
+    margin: 20px 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.header-5 nav ul li {
+    margin: 0 25px;
+}
+
+.header-5 nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    position: relative;
+    display: inline-block;
+}
+
+.header-animated-1 {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    animation: backgroundChange 10s infinite;
+}
+
+@keyframes backgroundChange {
+    0% { background-color: #333; }
+    50% { background-color: #666; }
+    100% { background-color: #333; }
+}
+
+.header-animated-1 nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-animated-1 nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.header-animated-1 nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-animated-2 {
+    background-color: #555;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    height: 60px;
+    position: relative;
+    overflow: hidden;
+}
+
+.header-animated-2 h1 {
+    font-size: 24px;
+    margin: 0;
+    animation: fadeInDown 5s ease-out;
+}
+
+.header-animated-2 .logo {
+    width: 50px;
+    height: 30px;
+    animation: logoBounce 3s infinite;
+}
+
+.header-animated-2 nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    animation: slideInRight 4s ease-out;
+}
+
+.header-animated-2 nav ul li {
+    margin: 0 10px;
+    animation: fadeIn 14s ease-out;
+}
+
+.header-animated-2 nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: transform 0.5s ease-out;
+}
+
+.header-animated-2 nav ul li a:hover {
+    transform: translateY(-3px); 
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes logoBounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.header-animated-3 {
+    background: linear-gradient(to right, #4CAF50, #81C784);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    animation: textGlow 3s infinite;
+}
+
+@keyframes textGlow {
+    0%, 100% { text-shadow: 0 0 5px white; }
+    50% { text-shadow: 0 0 20px white; }
+}
+
+.header-animated-3 nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.header-animated-3 nav ul li {
+    margin: 0 15px;
+}
+
+.header-animated-3 nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-animated-4 {
+    background-color: #009688;
+    color: white;
+    padding: 20px 0;
+    animation: slideIn 4s ease-out infinite; /* Added 'infinite' for continuous looping */
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.header-animated-4 .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header-animated-4 nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header-animated-4 nav ul li {
+    margin: 0 10px;
+}
+
+.header-animated-4 nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s ease-out;
+}
+
+.header-animated-4 nav ul li a:hover {
+    transform: translateY(-5px); /* Lift up on hover */
+}
+
+.header-animated-5 {
+    background-color: #673AB7;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    animation: fadeIn 4s ease-in-out infinite; /* Added 'infinite' for continuous looping */
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.header-animated-5 nav ul {
+    list-style-type: none;
+    margin: 20px 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.header-animated-5 nav ul li {
+    margin: 0 15px;
+    transform-origin: center bottom;
+    transition: transform 0.3s ease-in-out;
+}
+
+.header-animated-5 nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-animated-5 nav ul li:hover {
+    transform: translateY(-5px); /* Lift up on hover */
+}

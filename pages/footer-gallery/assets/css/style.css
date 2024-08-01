@@ -1,0 +1,281 @@
+.go-back-link {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.footer-1 {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-1 nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-1 nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-1 nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-2 {
+    background-color: #555;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-2 .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer-2 nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.footer-2 nav ul li {
+    margin: 0 10px;
+}
+
+.footer-2 nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-3 {
+    background-color: #777;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.footer-4 {
+    background-color: #444;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-4 nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.footer-4 nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.footer-4 nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-5 {
+    background-color: #222;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-5 .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer-5 nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.footer-5 nav ul li {
+    margin: 0 10px;
+}
+
+.footer-5 nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-animated-1 {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    animation: backgroundChange 10s infinite;
+}
+
+@keyframes backgroundChange {
+    0% { background-color: #333; }
+    50% { background-color: #666; }
+    100% { background-color: #333; }
+}
+
+.footer-animated-1 nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-animated-1 nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-animated-1 nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-animated-2 {
+    background-color: #555;
+    color: white;
+    padding: 20px 0;
+    animation: textFadeIn 3s infinite;
+}
+
+@keyframes textFadeIn {
+    0%, 100% { opacity: 0.5; }
+    50% { opacity: 1; }
+}
+
+.footer-animated-2 .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer-animated-2 nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.footer-animated-2 nav ul li {
+    margin: 0 10px;
+}
+
+.footer-animated-2 nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-animated-3 {
+    background-color: #777;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    animation: textGlow 3s infinite;
+}
+
+@keyframes textGlow {
+    0%, 100% { text-shadow: 0 0 5px white; }
+    50% { text-shadow: 0 0 20px white; }
+}
+
+.footer-animated-4 {
+    background-color: #444;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    animation: slideIn 1s ease-out;
+}
+
+@keyframes slideIn {
+    from { transform: translateY(100%); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.footer-animated-4 nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.footer-animated-4 nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.footer-animated-4 nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-animated-5 {
+    background-color: #222;
+    color: white;
+    padding: 20px 0;
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.footer-animated-5 .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer-animated-5 nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.footer-animated-5 nav ul li {
+    margin: 0 10px;
+}
+
+.footer-animated-5 nav ul li a {
+    color: white;
+    text-decoration: none;
+}
