@@ -121,6 +121,5 @@ WD-ProjectName
 
 <!-- TODO: Add References -->
 
-| Title | Purpose | Link |
+| FreeCodeCamp | To have a guide |(https://www.freecodecamp.org/)|
 
-|FreeCodeCamp|To have a guide|https://www.freecodecamp.org/|
