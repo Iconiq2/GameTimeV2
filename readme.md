@@ -4,7 +4,7 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/Iconiq2">
   <!-- TODO: If you want to add logo or banner you can add it here -->
     <img src="./assets/img/OKC-Logo.png" alt="Nyebe" width="130" height="100">
   </a>
@@ -72,8 +72,8 @@ Guiding Question:
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 
-- MultiPage Website
-- transitions and designs
+- Multi-page Website
+- Transitions and designs
 
 ### Technology
 
