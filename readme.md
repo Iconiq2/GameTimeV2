@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/OKC-Logo.png alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/OKC-Logo.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">SEATWORK 3</h3>
@@ -20,6 +20,7 @@
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
+
 ![](https://github.com/Iconiq2)
 
 ---
@@ -57,25 +58,32 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
+
 Description of the project in details.
 
 Guiding Question:
+
 - What is the project - This Project will show you a different types of Header and Footer Design
-- Whats the purpose - The purpose is to show the possible designs 
+- Whats the purpose - The purpose is to show the possible designs
 - What technology used and how it is used - I used visual code
 
 ### Key Components
+
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
+
 - MultiPage Website
 - transitions and designs
 
 ### Technology
+
 <!-- TODO: List of Technology Used -->
+
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ## Rules, Practices and Principles
+
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
 2. Do not rename any .html files; always use `index.html` as the filename.
 3. Place Files in their respective folders.
@@ -112,5 +120,6 @@ WD-ProjectName
 ## Resources
 
 <!-- TODO: Add References -->
+
 | Title | Purpose | Link |
-|FreeCodeCamp|To have a guide|[-](https://www.freecodecamp.org/)|
+|FreeCodeCamp|To have a guide|https://www.freecodecamp.org/|
