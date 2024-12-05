@@ -48,7 +48,7 @@ body {
     background-color: #5c9dff; /* Changed to a darker blue */
     color: white;
     border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
     transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
   }
   
