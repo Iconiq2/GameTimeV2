@@ -1,148 +1,58 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap');
-
 body {
-    font-family: 'Roboto', sans-serif;
-    background-image: url('https://s.hdnux.com/photos/77/03/55/16530298/12/1200x0.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
+    font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: rgba(255, 255, 255, 0.9); /* More opaque background */
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    background-image: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHBlMTRnM2lpYjVoczRpZzdvNHQ1c2pvbndibDlwajBicG94OThxNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tQgB6lM6XCle8/giphy.webp');
+    background-size: cover;
+    background-position: center; /* Center the background image */
+    filter: brightness(0.8); /* Darken the background image for contrast */
+  }
+  
+  .container {
     text-align: center;
-    max-width: 600px;
-    width: 90%;
-    position: relative;
-}
-
-.text-with-ball {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.football {
-    width: 50px;
-    height: 50px;
-    margin-right: 15px;
-    animation: roll 2s linear infinite;
-}
-
-@keyframes roll {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-p {
-    font-size: 20px;
-    color: #007BFF;
-}
-
-.animated-text {
-    font-family: 'Lobster', cursive;
-    font-size: 24px;
-    color: #007BFF;
-    animation: fadeIn 2s ease-in-out, moveUp 2s ease-in-out;
-}
-
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes moveUp {
-    0% {
-        transform: translateY(20px);
-    }
-    100% {
-        transform: translateY(0);
-    }
-}
-
-.button-container {
-    display: flex;
-    gap: 20px; /* Space between buttons */
-}
-
-.styled-button {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: 700;
-    cursor: pointer;
-    border: none;
-    border-radius: 25px;
-    background-color: #007BFF;
-    color: white;
-    text-decoration: none; /* Remove underline from links */
-    transition: background-color 0.3s, transform 0.3s;
-}
-
-.styled-button:hover {
-    background-color: #0056b3;
-    transform: scale(1.05);
-}
-
-.styled-button:active {
-    background-color: #004080;
-    transform: scale(1);
-}
-
-.animation-container {
-    position: relative;
-    width: 100%;
-    height: 200px;
+    padding: 20px; /* Add some padding for better readability */
+  }
+  
+  .container h1 {
+    font-size: 70px;
+    color: blue; /* Changed to a lighter blue */
+    font-weight: bold; /* Make the font bold */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+  }
+  
+  .container h2 {
+    font-size: 50px;
+    color: rgb(12, 12, 234); /* Changed to a medium blue */
+    font-weight: normal; /* Make the font normal */
+    margin-bottom: 10px; /* Add some margin for better spacing */
+  }
+  
+  .container p {
+    font-size: 25px;
+    color: rgba(0, 51, 255, 0.825); /* Changed to a darker blue */
+    font-weight: normal; /* Make the font normal */
+    margin-bottom: 20px; /* Add some margin for better spacingg */
+  }
+  
+  .buttons {
     margin-top: 20px;
-    overflow: hidden;
-}
-
-.animated-football {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    animation: moveFootball 5s linear infinite;
-}
-
-.goal-post {
-    position: absolute;
-    bottom: 0;
-    right: 10px;
-    width: 100px;
-    height: 200px;
-}
-
-@keyframes moveFootball {
-    0% {
-        left: -40px;
-        top: 50%;
-    }
-    50% {
-        left: calc(50% - 20px);
-        top: 10%;
-    }
-    100% {
-        left: calc(100% + 40px);
-        top: 50%;
-    }
-}
+  }
+  
+  .btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #5c9dff; /* Changed to a darker blue */
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+  }
+  
+  .btn:hover {
+    background-color: #7abdff; /* Changed to a lighter blue */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }

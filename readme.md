@@ -6,14 +6,14 @@
 <div align="center">
   <a href="https://github.com/Iconiq2">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/OKC-Logo.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/KICKS.png" alt="Kicks" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">SEATWORK 3</h3>
+  <h3 align="center">WD_SUNGA_SEATWORK_3</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Game Time! 
+  Core header and footer design principles, featuring both static and dynamic effects created using HTML and CSS.
 </div>
 
 <br />
@@ -59,7 +59,7 @@
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
 
-Description of the project in details.
+This project showcases the implementation of HTML and CSS to create various styles of headers and footers, including animated designs. It aims to provide practical experience in coding while delivering tangible outputs.
 
 Guiding Question:
 
@@ -72,8 +72,13 @@ Guiding Question:
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 
-- Multi-page Website
-- Transitions and designs
+- Headers Page:
+  - A collection of 10 unique headers highlighting various designs and features.
+  - Each header incorporates elements such as navigation menus, logos, search bars, or other relevant components.
+- Footers Page:
+ - Includes 10 distinct footers, categorized into 5 static and 5 animated versions.
+ - Static footers provide fixed content like copyright details, contact links, and navigation menus.
+ - Animated footers include dynamic and interactive elements with engaging visual effects.
 
 ### Technology
 
